@@ -8,19 +8,19 @@ const menu = {
         return this._courses.appetizers;
     },
     set appetizers(newAppetizer) {
-        this.appetizers = newAppetizer;
+        this._courses.appetizers = newAppetizer;
     },
     get mains() {
-        return this.mains;
+        return this._courses.mains;
     },
     set mains(newMain) {
-        this.mains = newMain;
+        this._courses.mains = newMain;
     },
     get desserts() {
-        return this.desserts;
+        return this._courses.desserts;
     },
     set desserts(newDessert) {
-        this.desserts = newDessert;
+        this._courses.desserts = newDessert;
     },
     get courses() {
         return {
