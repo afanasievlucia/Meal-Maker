@@ -53,17 +53,17 @@ const menu = {
     }
 }
 
-menu.addDishToCourse("appetizer", "Greec salad", "3$");
-menu.addDishToCourse("appetizer", "Cesar salad", "4$");
-menu.addDishToCourse("appetizer", "Olivie salad", "5$");
+menu.addDishToCourse("appetizers", "Greec salad", "3$");
+menu.addDishToCourse("appetizers", "Cesar salad", "4$");
+menu.addDishToCourse("appetizers", "Olivie salad", "5$");
 
-menu.addDishToCourse("main", "Steak with potatoes", "12$");
-menu.addDishToCourse("main", "Lasagne", "12$");
-menu.addDishToCourse("main", "Pizza", "10$");
+menu.addDishToCourse("mains", "Steak with potatoes", "12$");
+menu.addDishToCourse("mains", "Lasagne", "12$");
+menu.addDishToCourse("mains", "Pizza", "10$");
 
-menu.addDishToCourse("dessert", "Tiramisu", "4.5$");
-menu.addDishToCourse("dessert", "Ice-cream", "3$");
-menu.addDishToCourse("dessert", "Fruits salad", "4$");
+menu.addDishToCourse("desserts", "Tiramisu", "4.5$");
+menu.addDishToCourse("desserts", "Ice-cream", "3$");
+menu.addDishToCourse("desserts", "Fruits salad", "4$");
 
 const meal = menu.generateRandomMeal();
 console.log(meal);
